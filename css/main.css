@@ -1,0 +1,212 @@
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+
+
+html {
+
+  font-family: "Oswald", sans-serif;
+
+}
+
+
+
+body {
+
+  overflow: hidden;
+
+  background: #f4f7f6;
+
+}
+
+
+
+.sep {
+
+  width: 40%;
+
+  height: 500%;
+
+  background: #212121;
+
+  position: absolute;
+
+  right: -20%;
+
+  top: -50%;
+
+  transform: rotate(-10deg);
+
+  overflow: hidden;
+
+  box-shadow: 0px 0px 29px 3px rgba(0, 0, 0, 0.5);
+
+  transition: 0.3s;
+
+}
+
+
+
+.sep:hover {
+
+  width: 40.5%;
+
+}
+
+
+
+a {
+
+  color: #212121;
+
+  text-decoration: none;
+
+  font-size: 24px;
+
+}
+
+
+
+nav {
+
+  margin: 20px;
+
+  border-bottom: 1px solid #212121;
+
+  width: 319px;
+
+}
+
+
+
+nav a {
+
+  padding: 0px 20px;
+
+  transition: 0.3s;
+
+  text-align: center;
+
+  border-top-left-radius: 3px;
+
+  border-top-right-radius: 3px;
+
+}
+
+
+
+nav a:hover {
+
+  color: #f4f7f6;
+
+  background: #212121;
+
+  box-shadow: 0px 14px 24px -11px rgba(0, 0, 0, 0.75);
+
+}
+
+
+
+.content {
+
+  width: 600px;
+
+  height: 350px;
+
+  position: absolute;
+
+  top: 30%;
+
+  left: 10%;
+
+  cursor: default;
+
+}
+
+
+
+.title {
+
+  font-size: 40px;
+
+}
+
+
+
+#sottotitolo {
+
+  padding: 0px 5px;
+
+  font-size: 30px;
+
+  border-left: 2px solid #212121;
+
+}
+
+#simonecolione {
+
+  margin-top: 28%;
+
+  margin-left: 20%;
+
+  font-family: 'Exo', sans-serif;
+
+  font-size: 28px;
+
+  margin-right: 60%;  
+
+  text-align: center;
+  
+}
+
+blockquote::before {
+  content: "\201C";
+
+  display: block;
+
+  font-size: 80px;
+
+  left: -210px;
+
+  top: -25px;
+
+  position: relative;
+
+  height: 0;
+
+  color: #475250;
+
+  }
+
+  blockquote::after {
+    content: "\201d";
+  
+    display: block;
+  
+    font-size: 80px;
+  
+    left: 210px;
+  
+    top: -25px;
+  
+    position: relative;
+  
+    height: 0;
+  
+    color: #475250;
+  
+    }
+
+
+#citrandom{
+
+  font-size: 18px;
+
+  text-align: right;
+
+}

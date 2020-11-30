@@ -1,0 +1,339 @@
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: #f4f7f6;
+  overflow: hidden;
+  width:100%;
+  height:100vh;
+}
+
+header {
+  width: 300px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 30px;
+  border-left: 3px solid #212121;
+  border-right: 3px solid #212121;
+  position: relative;
+  left: calc((100% - 300px) / 2);
+}
+
+#sep {
+  width: 40%;
+  height: 500%;
+  background: #212121;
+  position: absolute;
+  right: -40%;
+  top: -50%;
+  transform: rotate(-10deg);
+  overflow: hidden;
+  box-shadow: 0px 0px 29px 3px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  z-index: 1;
+}
+
+#sep2 {
+  width: 40%;
+  height: 500%;
+  background: #212121;
+  position: absolute;
+  left: -40%;
+  top: -50%;
+  transform: rotate(10deg);
+  overflow: hidden;
+  box-shadow: 0px 0px 29px 3px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  color: #212121;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #f4f7f6;
+  color: white;
+  padding: 26px 16px;
+  font-size: 26px;
+  border: solid #212121 3px;
+  cursor: pointer;
+  border-radius: 10px;
+  color: #212121;
+  transition: 0.3s;
+  position: relative;
+  width: 500px;
+  left: calc((100% - 500px) / 2);
+}
+
+.dropbtn:hover a {
+  color: #f4f7f6;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover {
+  background-color: #212121;
+  color: #f4f7f6;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  width: 300px;
+  left: calc((100% - 300px) / 2);
+  top: 150px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #f4f7f6;
+  min-width: 500px;
+  left: calc((100% - 500px) / 2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #212121;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+
+#bottone {
+  border-radius: 100%;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  left: calc((100% - 300px) / 2);
+  background-color: #f4f7f6;
+  border: solid #29e999 10px;
+  font-size: 50px;
+  text-align: center;
+  top: 50px;
+  color: #212121;
+  transition: 0.3s;
+}
+
+#bottone:hover {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.69);
+  background-color: #212121;
+  color: #f4f7f6;
+  cursor: pointer;
+  text-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+}
+
+#bottone:active {
+  transform: scale(0.95);
+}
+
+p {
+  text-align: center;
+  position: relative;
+  right: 5px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1920px) {
+  #bottone {
+    width: 200px;
+    height: 200px;
+    font-size: 35px;
+    left: calc((100% - 200px) / 2);
+  }
+
+  .dropbtn {
+    top: -50px;
+    width: 300px;
+    left: calc((100% - 300px) / 2);
+    padding: 15px 5px;
+  }
+
+  .dropdown p {
+    top: -50px;
+  }
+  .dropdown-content a {
+  padding: 6px 8px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+  #bottone {
+    width: 150px;
+    height: 150px;
+    font-size: 35px;
+    left: calc((100% - 150px) / 2);
+  }
+
+  .dropbtn {
+    top: -40px;
+    width: 150px;
+    left: calc((100% - 150px) / 2);
+    padding: 10px 5px;
+  }
+
+  .dropdown p {
+    top: -40px;
+  }
+  .dropdown-content a {
+  padding: 6px 8px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+  #bottone {
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    left: calc((100% - 150px) / 2);
+  }
+
+  .dropbtn {
+    top: -50px;
+    width: 300px;
+    padding: 7px 3px;
+    font-size: 10px;
+  }
+
+  .dropdown p {
+    width: 100px;
+    left: calc((100% - 100px) / 2);
+  }
+  
+  #sep {
+      display: none;
+  }
+  #sep2 {
+      display: none;
+  }
+}
+
+h1 
+{
+  color: white;
+  opacity: 80%;
+  text-transform: uppercase;
+  font-size: 250%;
+  position: absolute;
+  top: -1.5%;
+  width: 14.6%;
+  z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999;
+  transition: 0.5s;
+}
+
+.navigation
+{
+  background-color: #212121;
+  position: fixed;
+  z-index: 99999999999999999999999999999999999999999999999999;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  opacity: 90%;
+  height: 7%;
+}
+
+h2
+{
+  color: white;
+  opacity: 80%;
+  text-transform: uppercase;
+  font-size: 250%;
+  width: 14.6%;
+  position: absolute;
+  left: 86%;
+  top: -2%;
+  z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999;
+  transition: 0.5s;
+}
+
+h3
+{
+  color: white;
+  opacity: 80%;
+  text-transform: uppercase;
+  font-size: 250%;
+  width: 14.6%;
+  position: absolute;
+  left: 72.5%;
+  top: -2.9%;
+  z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999;
+  transition: 0.5s;
+}
+
+h1:hover
+{
+  color: #29e999;
+  opacity: 100%;
+}
+
+h1:active {
+  transform: scale(0.50);
+}
+
+h2:hover
+{
+  color: #29e999;
+  opacity: 100%;
+}
+
+h2:active {
+  transform: scale(0.50);
+}
+
+h3:hover
+{
+  color: #29e999;
+  opacity: 100%;
+}
+
+h3:active {
+  transform: scale(0.50);
+}
+
+.box
+{
+  box-shadow: -5px -5px 25px black;
+  border: black solid 0.5px;
+  width: 900px;
+  position: absolute;
+  right: 25.5%;
+  border-radius: 5px;
+  height: 45%;
+  font-size: 150%;
+  bottom: 33%;
+}
+
+h4
+{
+  text-decoration: none;
+  text-align: center;
+}
+
+ul
+{
+  font-weight: bold;
+}
+
+#title
+{
+  color: #29e999;
+  text-shadow: 1px 1px 2px black;
+  position: relative;
+  right: -1%;
+  text-align: left;
+}
