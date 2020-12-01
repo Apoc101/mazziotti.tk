@@ -88,6 +88,8 @@ var frase = [
   "Perché, come sapete, mia madre è la basilicata",
   
   "Ho una voglia esplodente",
+  
+  "Quando esce da questo if del sesso",
 
 
 
@@ -185,6 +187,8 @@ var cit = [
     "Cavo, 2020",
   
     "Gab, 2020",
+  
+    "Vallesi, 2020"
     
 
 ]
