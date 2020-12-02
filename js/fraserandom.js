@@ -90,6 +90,10 @@ var frase = [
   "Ho una voglia esplodente",
   
   "Quando esce da questo if del sesso",
+  
+  "Simo ha tipo tre porte di finestre",
+  
+  "Ma le porte finestre sono quelle che portano le finestre"
 
 
 
@@ -188,7 +192,11 @@ var cit = [
   
     "Gab, 2020",
   
-    "Vallesi, 2020"
+    "Vallesi, 2020",
+  
+    "Gab, 2020",
+  
+    "Gab, 2020",
     
 
 ]
