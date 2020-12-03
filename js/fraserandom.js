@@ -101,7 +101,9 @@ var frase = [
   
   "Sto uccidendo gli scheletri di buio",
   
-  "Lore, mi hai rubato il cavallo?"
+  "Lore, mi hai rubato il cavallo?",
+  
+  "Il mandolino del barbone"
 
 
 
@@ -212,7 +214,9 @@ var cit = [
   
     "Gab, 2020",
   
-    "Andre, 2020"
+    "Andre, 2020",
+  
+  "Gab, 2020"
   
 ]
 
