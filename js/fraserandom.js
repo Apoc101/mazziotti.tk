@@ -105,7 +105,9 @@ var frase = [
   
   "Il mandolino del barbone",
   
-  "La neve rinforzata"
+  "La neve rinforzata",
+  
+  "Sei un nano Ale?"
 
 
 
@@ -220,7 +222,9 @@ var cit = [
   
   "Gab, 2020",
   
-  "Gab, 2020"
+  "Gab, 2020",
+  
+  "Lore, 2020"
   
 ]
 
