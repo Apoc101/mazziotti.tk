@@ -93,7 +93,9 @@ var frase = [
   
   "Simo ha tipo tre porte di finestre",
   
-  "Ma le porte finestre sono quelle che portano le finestre"
+  "Ma le porte finestre sono quelle che portano le finestre",
+  
+  "Jacopo, casa tua è scale"
 
 
 
@@ -198,7 +200,8 @@ var cit = [
   
     "Gab, 2020",
     
-
+    "Gab, 2020"
+  
 ]
 
 
