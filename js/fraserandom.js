@@ -107,7 +107,9 @@ var frase = [
   
   "La neve rinforzata",
   
-  "Sei un nano Ale?"
+  "Sei un nano Ale?",
+  
+  "Qua ci sono rumori di radiazioni"
 
 
 
@@ -224,7 +226,9 @@ var cit = [
   
   "Gab, 2020",
   
-  "Lore, 2020"
+  "Lore, 2020",
+  
+  "Gab, 2020"
   
 ]
 
