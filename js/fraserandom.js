@@ -103,7 +103,9 @@ var frase = [
   
   "Lore, mi hai rubato il cavallo?",
   
-  "Il mandolino del barbone"
+  "Il mandolino del barbone",
+  
+  "La neve rinforzata"
 
 
 
@@ -215,6 +217,8 @@ var cit = [
     "Gab, 2020",
   
     "Andre, 2020",
+  
+  "Gab, 2020",
   
   "Gab, 2020"
   
