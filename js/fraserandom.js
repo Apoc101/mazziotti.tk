@@ -113,7 +113,9 @@ var frase = [
   
   "I mattoni finiscono come la merda",
   
-  "Sono una chat di Twitch vivente"
+  "Sono una chat di Twitch vivente",
+  
+  "È enormico"
 
 
 
@@ -236,7 +238,9 @@ var cit = [
   
   "Simone, 2020",
   
-  "Gab, 2020"
+  "Gab, 2020",
+  
+  "Bob, 2017"
   
 ]
 
