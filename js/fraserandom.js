@@ -121,7 +121,13 @@ var frase = [
   
   "Il cotechismo",
   
-  "Noi ci chiediamo la domanda"
+  "Noi ci chiediamo la domanda",
+  
+  "L'anagorismo analogico",
+  
+  "Ora divento collaterale",
+  
+  
 
 
 
@@ -247,6 +253,10 @@ var cit = [
   "Gab, 2020",
   
   "Bob, 2017",
+  
+  "Gab, 2020",
+  
+  "Gab, 2020",
   
   "Gab, 2020",
   
