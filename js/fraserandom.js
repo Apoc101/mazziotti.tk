@@ -115,7 +115,13 @@ var frase = [
   
   "Sono una chat di Twitch vivente",
   
-  "È enormico"
+  "È enormico",
+  
+  "Sembri lil Pipa",
+  
+  "Il cotechismo",
+  
+  "Noi ci chiediamo la domanda"
 
 
 
@@ -240,7 +246,13 @@ var cit = [
   
   "Gab, 2020",
   
-  "Bob, 2017"
+  "Bob, 2017",
+  
+  "Gab, 2020",
+  
+  "Gab, 2020",
+  
+  "Gab, 2020"
   
 ]
 
