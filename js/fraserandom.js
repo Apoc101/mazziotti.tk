@@ -126,6 +126,7 @@ var frase = [
   "L'anagorismo analogico",
   
   "Ora divento collaterale",
+  "Il lubrificante è fatto di cazzo"
   
   
 
@@ -262,7 +263,9 @@ var cit = [
   
   "Gab, 2020",
   
-  "Gab, 2020"
+  "Gab, 2020",
+  
+  "Cavo 2021"
   
 ]
 
