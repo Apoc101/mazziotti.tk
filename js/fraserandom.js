@@ -132,7 +132,17 @@ var frase = [
   
   "È egotistica",
   
-  "Qual'è la differenza tra bucket e bajijumping"
+  "Qual'è la differenza tra bucket e bajijumping",
+  
+  "Com'è che si chiamava il tachiometro?",
+  
+  "Tu sei Gucci, io sono Luis Fronz",
+  
+  "Perché stai sangunando estensiamente?",
+  
+  "Sissi dai",
+  
+  "Mi sto interaldo",
   
 
 
@@ -276,7 +286,17 @@ var cit = [
   
   "Gab, 2020",
   
-  "Amy, 2020"
+  "Amy, 2020",
+  
+  "Gab, 2021",
+  
+  "Gab, 2020",
+  
+  "Gab, 2021",
+  
+  "Vallesi, 2021",
+  
+  "Gab, 2020",
   
 ]
 
