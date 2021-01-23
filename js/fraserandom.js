@@ -126,8 +126,13 @@ var frase = [
   "L'anagorismo analogico",
   
   "Ora divento collaterale",
-  "Il lubrificante è fatto di cazzo"
+  "Il lubrificante è fatto di cazzo",
   
+  "Il cambio in elevazione",
+  
+  "È egotistica",
+  
+  "Qual'è la differenza tra bucket e bajijumping"
   
 
 
@@ -265,7 +270,13 @@ var cit = [
   
   "Gab, 2020",
   
-  "Cavo 2021"
+  "Cavo 2021",
+  
+  "Gab, 2020",
+  
+  "Gab, 2020",
+  
+  "Amy, 2020"
   
 ]
 
